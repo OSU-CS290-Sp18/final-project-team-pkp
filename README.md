@@ -6,8 +6,8 @@
 
 ---
 ### Members
-[Hayden Hanson](https://github.com/hansohay)
-[Tim Shelton](https://github.com/sheltoti)
+ * [Hayden Hanson](https://github.com/hansohay)
+ * [Tim Shelton](https://github.com/sheltoti)
 
 ---
 
