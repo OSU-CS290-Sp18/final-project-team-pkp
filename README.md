@@ -1,4 +1,4 @@
-# Restaurant Finder!
+# Shop Destination Finder!
 
 **Final project in CS290, taught by Dr. Rob Hess at OSU in Spring 2018.**
 
