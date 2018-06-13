@@ -69,12 +69,27 @@ ul {
   color: #ffffff;
 }
 
+.shop-body .shop-fastFood-button:focus {
+  background-color: #ff8c00;
+  color: #ffffff;
+}
+
 .shop-body .shop-banking-button:hover {
   background-color: #ff8c00;
   color: #ffffff;
 }
 
+.shop-body .shop-banking-button:focus {
+  background-color: #ff8c00;
+  color: #ffffff;
+}
+
 .shop-body .shop-pharmacy-button:hover {
+  background-color: #ff8c00;
+  color: #ffffff;
+}
+
+.shop-body .shop-pharmacy-button:focus {
   background-color: #ff8c00;
   color: #ffffff;
 }
@@ -103,7 +118,7 @@ ul {
 }
 
 .shop-footer .shop-choose-button:hover {
-  background-color: #ff8c00;
+  background-color: #b36200;
   color: #ffffff;
 }
 
@@ -147,7 +162,7 @@ ul {
   padding: 4px;
   font-size: 12px;
   background-color: #eee;
-  border: 2px solid #dadada;
+  border: 2px solid #708090;
   border-radius: 2px;
 }
 
@@ -180,7 +195,7 @@ ul {
 }
 
 .shop-search-footer .shop-clearSearch-button:hover {
-  background-color: #ff8c00;
+  background-color: #b36200;
   color: #ffffff;
 }
 
@@ -190,7 +205,7 @@ ul {
 }
 
 .shop-search-footer .shop-search-button:hover {
-  background-color: #ff8c00;
+  background-color: #b36200;
   color: #ffffff;
 }
 
