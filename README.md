@@ -6,7 +6,9 @@
 
 ---
 ### Members
-	[Hayden Hanson](https://github.com/hansohay)
-	[Tim Shelton](https://github.com/sheltoti)
+[Hayden Hanson](https://github.com/hansohay)
+[Tim Shelton](https://github.com/sheltoti)
 
+---
 
+**Code and demo due by 1:45pm on Friday, 6/15/2018**
