@@ -42,7 +42,7 @@ function showInformationModal() {
   /*Call hide when close or cancel are clicked*/
   ModalCloseButton[0].addEventListener('click',hideInformationModal);
   ModalCancelButton[0].addEventListener('click',hideInformationModal);
-/*Create the functionality this calls*/  ModalFindButton[0].addEventListener('click',FindLocation);  
+/*Create the functionality this calls*/ /*Debugging/Dont need this rightnow*/ /*ModalFindButton[0].addEventListener('click',FindLocation);  */
   
   /*Temporarily Icing your code to see if my way works*/
   /*var modalBackdrop = document.getElementById('modal-backdrop');
