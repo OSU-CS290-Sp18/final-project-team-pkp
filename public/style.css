@@ -230,14 +230,20 @@ ul {
 .modal-body {
   padding: 20px;
   font-weight: bold;
-  font-size: 18px;
-  align-items: flex-start;
+  font-size: 19px;
+  /*align-items: flex-start;*/
   display: flex;
   flex-direction: column;
 }
 
+.modal-body h4 {
+  align-items: flex-start;
+  
+}
+
 #input-box {
   align-items: center;
+  font-size: 15px;
 }
 
 .modal-footer {
