@@ -266,6 +266,26 @@ ul {
   color: #ffffff;
 }
 
+.modal-footer .modal-cancel-button2 {
+  background-color: #fff;
+  color: #333;
+}
+
+.modal-footer .modal-cancel-button2:hover {
+  background-color: #b36200;
+  color: #ffffff;
+}
+
+.modal-footer .modal-create-button {
+  background-color: #fff;
+  color: #333;
+}
+
+.modal-footer .modal-create-button:hover {
+  background-color: #b36200;
+  color: #ffffff;
+}
+
 .shop-search-box {
   background-color: #000000;
   margin: 0 75px;
