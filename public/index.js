@@ -4,7 +4,7 @@ var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
 var ModalFindButton = document.getElementsByClassName('modal-find-button');
 
 /*Listens for a click on the choose category button*/
-var CreateListenerUnhide = document.getElementById('shop-choose-button');
+var CreateListenerUnhideInformationModal = document.getElementById('shop-choose-button');
 CreateListenerUnhideInformationModal.addEventListener('click',showInformationModal);
 /*Enables the capacity to access the "hidden" element of the modals and edit it*/
 var RemoveHiddenAccess = document.getElementsByClassName('hidden');
