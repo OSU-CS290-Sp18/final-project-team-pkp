@@ -343,6 +343,17 @@ ul {
   color: #ffffff;
 }
 
+.shop-search-footer .shop-addshop-button {
+  background-color: #ffe4b5;
+  color: #000000;
+}
+
+.shop-search-footer .shop-addshop-button:hover {
+  background-color: #b36200;
+  color: #ffffff;
+}
+
+
 a {
   text-decoration: none;
   /*color: #343434;*/
