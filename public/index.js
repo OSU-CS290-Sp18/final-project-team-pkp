@@ -44,8 +44,8 @@ function showCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'block';
   
   /*These might need to be individualized too?*/
-  ModalCloseButton[2].addEventListener('click',hideCreateShopModal);
-  ModalCancelButton[2].addEventListener('click',hideCreateShopModal);
+  ModalCloseButton[1].addEventListener('click',hideCreateShopModal);
+  ModalCancelButton[1].addEventListener('click',hideCreateShopModal);
 }
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
