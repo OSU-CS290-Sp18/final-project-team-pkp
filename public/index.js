@@ -1,6 +1,6 @@
 
-function handle
-
+function handle(){
+}
 function handleModalFindClick() {
 
 }
@@ -67,4 +67,4 @@ window.addEventListener('DOMContentLoaded', function () {
   if (searchInput) {
     searchInput.addEventListener('input', doSearchUpdate);
   }*/
-});
+};
