@@ -10,7 +10,7 @@
     <!-- CSS Styling -->
     <link rel="stylesheet" href="style.css" media="screen">
     <!-- JavaScript -->
-    <!--<script src="/index.js" charset="utf-8" defer></script>-->
+    <script src="/index.js" charset="utf-8" defer></script>
 		<!-- Handlebars -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.runtime.js" defer></script>
 
@@ -35,6 +35,8 @@
 							<li><button type="button" class="shop-fastFood-button">Fast Food</button></li>
 							<li><button type="button" class="shop-banking-button">Banking</button></li>
 							<li><button type="button" class="shop-pharmacy-button">Pharmacy</button></li>
+							<li><button type="button" class="shop-coffee-button">Coffee</button></li>
+							<li><button type="button" class="shop-bars-button">Bars</button></li>
 						</ul>
 					</div>
 					<div class="shop-footer">
@@ -62,6 +64,26 @@
 			</section>
 
 		</main>
+
+		<div id="modal-backdrop" class="hidden"></div>
+		<div id="create-shop-modal" class="hidden">
+			<div class="modal-dialog">
+				<div class="modal-header">
+					<h3>These are your options below: (choose one)</h3>
+					<button type="button" class="modal-close-button">X</button>
+				</div>
+
+				<div class="modal-body">
+
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="modal-cancel-button">Cancel</button>
+          <button type="button" class="modal-find-button">Find Location</button>
+				</div>
+			</div>
+		</div>
+
 	</body>
 
 </html>
