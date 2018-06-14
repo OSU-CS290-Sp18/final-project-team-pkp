@@ -1,5 +1,5 @@
 /*"Most recent variable" for storing which type of shop has been clicked most recently, to be passed into show information*/
-var MostRecentShop = "";
+var MostRecentShop = '';
 
 /*Listeners on each shop type of button so I can pass to mostrecent value*/
 var FastFoodButton = document.getElementsByClassName('shop-fastFood-button');
