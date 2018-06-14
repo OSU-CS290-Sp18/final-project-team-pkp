@@ -28,6 +28,10 @@ var ModalFindButton = document.getElementsByClassName('modal-find-button');
 var AddShopButton = document.getElementsByClassName('shop-addshop-button');
 AddShopButton[0].addEventListener('click',showCreateShopModal);
 
+/*Create the capacity to, and listen for a click on the show button for search*/
+var UnhideSearchModal = document.getElementById('shop-search-button');
+UnhideSearchModal.addEventListener('click',showSearchModal);
+
 /*Listens for a click on the choose category button*/
 var CreateListenerUnhideInformationModal = document.getElementById('shop-choose-button');
 CreateListenerUnhideInformationModal.addEventListener('click',showInformationModal);
@@ -75,10 +79,6 @@ function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
 }
-
-/*Create the capacity to, and listen for a click on the show button for search*/
-var CreateListenerUnhideSearchModal = document.getElementById('shop-search-button');
-CreateListenerUnhideSearchModal.addEventListener('click',showSearchModal);
 
 /*Shows the search content modal*/
 function showSearchModal(){
