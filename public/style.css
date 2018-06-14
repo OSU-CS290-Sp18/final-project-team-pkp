@@ -266,12 +266,12 @@ ul {
   color: #ffffff;
 }
 
-.modal-footer .modal-cancel-button2 {
+.modal-footer .modal-cancel-button {
   background-color: #fff;
   color: #333;
 }
 
-.modal-footer .modal-cancel-button2:hover {
+.modal-footer .modal-cancel-button:hover {
   background-color: #b36200;
   color: #ffffff;
 }
