@@ -5,18 +5,18 @@ var MostRecentShop = "";
 var FastFoodButton = document.getElementsByClassName('shop-fastFood-button');
 var GroceryStoreButton = document.getElementsByClassName('shop-groceryStore-button');
 var PharmacyButton = document.getElementsByClassName('shop-pharmacy-button');
-var CoffeeButton = document.getElementsByClassName('shop-coffee-button');
 var BarsButton = document.getElementsByClassName('shop-bars-button');
+var CoffeeButton = document.getElementsByClassName('shop-coffee-button');
+
 /*Listeners on these buttons that call the updateMostRecent shop selection function*/
 FastFoodButton[0].addEventListener('click',updateMostRecent("fastFood-button"));
 GroceryStoreButton[0].addEventListener('click',updateMostRecent("groceryStore-button"));
 PharmacyButton[0].addEventListener('click',updateMostRecent("pharmacy-button"));
-CoffeeButton[0].addEventListener('click',updateMostRecent("coffee-button"));
 BarsButton[0].addEventListener('click',updateMostRecent("bars-button"));
+CoffeeButton[0].addEventListener('click',updateMostRecent("coffee-button"));
 /*Function that updates the MostRecentShop variable so we can effectively fill out the showinformation correctly*/
 function updateMostRecent(whatWasClicked){
-  MostRecentShop = "hello";
-  
+  MostRecentShop = whatWasClicked;
 }
                                
 /*Connect The HTML elements of the Close/Cancel/Find buttons to be available to the event listeners*/
