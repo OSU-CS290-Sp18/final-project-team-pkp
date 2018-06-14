@@ -2,11 +2,11 @@
 var MostRecentShop = "";
 
 /*Listeners on each shop type of button so I can pass to mostrecent value*/
-var FastFoodButton = document.getElementsbyClassName('shop-fastFood-button');
-var GroceryStoreButton = document.getElementsbyClassName('shop-groceryStore-button');
-var PharmacyButton = document.getElementsbyClassName('shop-pharmacy-button');
-var CoffeeButton = document.getElementsbyClassName('shop-coffee-button');
-var BarsButton = document.getElementsbyClassName('shop-bars-button');
+var FastFoodButton = document.getElementsByClassName('shop-fastFood-button');
+var GroceryStoreButton = document.getElementsByClassName('shop-groceryStore-button');
+var PharmacyButton = document.getElementsByClassName('shop-pharmacy-button');
+var CoffeeButton = document.getElementsByClassName('shop-coffee-button');
+var BarsButton = document.getElementsByClassName('shop-bars-button');
 /*Listeners on these buttons that call the updateMostRecent shop selection function*/
 FastFoodButton[0].addEventListener('click',updateMostRecent('shop-fastFood-button'));
 GroceryStoreButton[0].addEventListener('click',updateMostRecent('shop-groceryStore-button'));
