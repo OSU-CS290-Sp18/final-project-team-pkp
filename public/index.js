@@ -49,6 +49,7 @@ function showCreateShopModal() {
 }
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
+  RemoveHiddenAccess[3].style['display'] = 'none';
 }
 
 /*Wait for DOM content to load, then hook up UI interactions*/
