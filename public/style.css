@@ -231,13 +231,13 @@ ul {
   padding: 20px;
   font-weight: bold;
   font-size: 19px;
-  /*align-items: flex-start;*/
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
 
 .modal-body h4 {
-  align-items: flex-start;
+  /*align-items: flex-start;*/
   
 }
 
