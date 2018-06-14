@@ -40,6 +40,7 @@ function hideInformationModal() {
   modalBackdrop.classList.add('hidden');
   createShopModal.classList.add('hidden');*/
 }
+/*Unhides the create shop modal and background when called*/
 function showCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'block';
   RemoveHiddenAccess[3].style['display'] = 'block'; 
@@ -47,6 +48,7 @@ function showCreateShopModal() {
   ModalCloseButton[1].addEventListener('click',hideCreateShopModal);
   ModalCancelButton[1].addEventListener('click',hideCreateShopModal);
 }
+/*Hides the create shop modal and background when called*/
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
