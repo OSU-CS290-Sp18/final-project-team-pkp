@@ -171,6 +171,15 @@ ul {
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.85);
 }
+#modal-backdrop3 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+}
 
 #create-shop-modal {
   position: fixed;
@@ -191,7 +200,15 @@ ul {
   z-index: 1010;
   overflow: scroll;
 }
-
+#search-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
 .hidden {
   display: none;
 }
