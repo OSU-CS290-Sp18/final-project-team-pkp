@@ -5,7 +5,7 @@ var ModalFindButton = document.getElementsByClassName('modal-find-button');
 
 /*Connect the HTML element of the "Add shop" button so it can be listened for*/
 var AddShopButton = document.getElementsByClassName('shop-addshop-button');
-AddShopButton[0].addEventListener('click',showInformationModal);
+AddShopButton[0].addEventListener('click',showCreateShopModal);
 
 /*Listens for a click on the choose category button*/
 var CreateListenerUnhideInformationModal = document.getElementById('shop-choose-button');
@@ -29,7 +29,6 @@ function showInformationModal() {
   modalBackdrop.classList.remove('hidden');
   createShopModal.classList.remove('hidden');*/
 }
-
 /*Hides the modal when close or cancel buttons are clicked*/
 function hideInformationModal() {
   RemoveHiddenAccess[0].style['display'] = 'none';
@@ -39,6 +38,16 @@ function hideInformationModal() {
   var createShopModal = document.getElementById('create-shop-modal');
   modalBackdrop.classList.add('hidden');
   createShopModal.classList.add('hidden');*/
+}
+function showCreateShopModal() {
+  RemoveHiddenAccess[2].style['display'] = 'block';
+  
+  /*These might need to be individualized too?*/
+  ModalCloseButton[0].addEventListener('click',hideCreateShopModal);
+  ModalCancelButton[0].addEventListener('click',hideCreateShopModal);
+}
+function hideCreateShopModal() {
+  RemoveHiddenAccess[2].style['display'] = 'none';
 }
 
 /*Wait for DOM content to load, then hook up UI interactions*/
