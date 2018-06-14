@@ -1,38 +1,40 @@
-
-function handle(){
-}
-function handleModalFindClick() {
-
-}
-
+/*Connect The HTML elements of the Close/Cancel/Find buttons to be available to the event listeners*/
+var ModalCloseButton = document.getElementsByClassName('modal-close-button');
+var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
+var ModalFindButton = document.getElementsByClassName('modal-find-button');
 
 /*Listens for a click on the choose category button*/
 var CreateListenerUnhide = document.getElementById('shop-choose-button');
-CreateListenerUnhide.addEventListener('click',showCreateShopModal);
-
+CreateListenerUnhideInformationModal.addEventListener('click',showInformationModal);
 /*Enables the capacity to access the "hidden" element of the modals and edit it*/
 var RemoveHiddenAccess = document.getElementsByClassName('hidden');
 
 /*Shows the modal when the choose button is clicked*/
-function showCreateShopModal() {
+function showInformationModal() {
   /*New style of getting to change the 'hidden' attribute*/
   RemoveHiddenAccess[0].style['display'] = 'block';
   RemoveHiddenAccess[1].style['display'] = 'block';
+  
+  ModalCloseButton[0].addEventListener('click',hideInformationModal);
+  ModalCancelButton[0].addEventListener('click',hideInformationModal);
+/*Create the functionality this calls*/  ModalFindButton[0].addEventListener('click',FindLocation);  
+  
   /*Temporarily Icing your code to see if my way works*/
   /*var modalBackdrop = document.getElementById('modal-backdrop');
   var createShopModal = document.getElementById('create-shop-modal');
-
   modalBackdrop.classList.remove('hidden');
   createShopModal.classList.remove('hidden');*/
 }
 
 /*Hides the modal when close or cancel buttons are clicked*/
-function hideCreateShopModal() {
-  var modalBackdrop = document.getElementById('modal-backdrop');
+function hideInformationModal() {
+  RemoveHiddenAccess[0].style['display'] = 'none';
+  RemoveHiddenAccess[1].style['display'] = 'none';
+  /*Icing your code again mybad*/
+  /*var modalBackdrop = document.getElementById('modal-backdrop');
   var createShopModal = document.getElementById('create-shop-modal');
-
   modalBackdrop.classList.add('hidden');
-  createShopModal.classList.add('hidden');
+  createShopModal.classList.add('hidden');*/
 }
 
 /*Wait for DOM content to load, then hook up UI interactions*/
