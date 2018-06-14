@@ -1,5 +1,5 @@
 /*"Most recent variable" for storing which type of shop has been clicked most recently, to be passed into show information*/
-var MostRecentShop = '';
+var MostRecentShop = "";
 
 /*Listeners on each shop type of button so I can pass to mostrecent value*/
 var FastFoodButton = document.getElementsByClassName('shop-fastFood-button');
@@ -8,11 +8,11 @@ var PharmacyButton = document.getElementsByClassName('shop-pharmacy-button');
 var CoffeeButton = document.getElementsByClassName('shop-coffee-button');
 var BarsButton = document.getElementsByClassName('shop-bars-button');
 /*Listeners on these buttons that call the updateMostRecent shop selection function*/
-FastFoodButton[0].addEventListener('click',updateMostRecent('fastFood-button'));
-GroceryStoreButton[0].addEventListener('click',updateMostRecent('groceryStore-button'));
-PharmacyButton[0].addEventListener('click',updateMostRecent('pharmacy-button'));
-CoffeeButton[0].addEventListener('click',updateMostRecent('coffee-button'));
-BarsButton[0].addEventListener('click',updateMostRecent('bars-button'));
+FastFoodButton[0].addEventListener('click',updateMostRecent("fastFood-button"));
+GroceryStoreButton[0].addEventListener('click',updateMostRecent("groceryStore-button"));
+PharmacyButton[0].addEventListener('click',updateMostRecent("pharmacy-button"));
+CoffeeButton[0].addEventListener('click',updateMostRecent("coffee-button"));
+BarsButton[0].addEventListener('click',updateMostRecent("bars-button"));
 /*Function that updates the MostRecentShop variable so we can effectively fill out the showinformation correctly*/
 function updateMostRecent(whatWasClicked){
   MostRecentShop = whatWasClicked;
