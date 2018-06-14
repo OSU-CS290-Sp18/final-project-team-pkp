@@ -16,7 +16,7 @@ BarsButton[0].addEventListener('click',updateMostRecent('shop-bars-button'));
 CoffeeButton[0].addEventListener('click',updateMostRecent('shop-coffee-button'));
 /*Function that updates the MostRecentShop variable so we can effectively fill out the showinformation correctly*/
 function updateMostRecent(whatWasClicked){
-  MostRecentShop = whatWasClicked;
+  var MostRecentShop = whatWasClicked;
 }
                                
 /*Connect The HTML elements of the Close/Cancel/Find buttons to be available to the event listeners*/
