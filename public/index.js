@@ -19,6 +19,7 @@ function showInformationModal() {
   RemoveHiddenAccess[0].style['display'] = 'block';
   RemoveHiddenAccess[1].style['display'] = 'block';
   
+  /*Call hide when close or cancel are clicked*/
   ModalCloseButton[0].addEventListener('click',hideInformationModal);
   ModalCancelButton[0].addEventListener('click',hideInformationModal);
 /*Create the functionality this calls*/  ModalFindButton[0].addEventListener('click',FindLocation);  
@@ -43,8 +44,8 @@ function showCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'block';
   
   /*These might need to be individualized too?*/
-  ModalCloseButton[0].addEventListener('click',hideCreateShopModal);
-  ModalCancelButton[0].addEventListener('click',hideCreateShopModal);
+  ModalCloseButton[2].addEventListener('click',hideCreateShopModal);
+  ModalCancelButton[2].addEventListener('click',hideCreateShopModal);
 }
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
