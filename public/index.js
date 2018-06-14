@@ -3,6 +3,10 @@ var ModalCloseButton = document.getElementsByClassName('modal-close-button');
 var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
 var ModalFindButton = document.getElementsByClassName('modal-find-button');
 
+/*Connect the HTML element of the "Add shop" button so it can be listened for*/
+var AddShopButton = document.getElementsByClassName('shop-addshop-button');
+AddShopButton.addEventListener('click',showInformationModal);
+
 /*Listens for a click on the choose category button*/
 var CreateListenerUnhideInformationModal = document.getElementById('shop-choose-button');
 CreateListenerUnhideInformationModal.addEventListener('click',showInformationModal);
