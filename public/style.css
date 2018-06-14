@@ -229,8 +229,9 @@ ul {
 
 .modal-body {
   padding: 20px;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
+  justify-content: space-around;
 }
 
 .modal-footer {
