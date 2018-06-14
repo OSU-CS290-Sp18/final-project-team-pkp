@@ -1,3 +1,23 @@
+/*"Most recent variable" for storing which type of shop has been clicked most recently, to be passed into show information*/
+var MostRecentShop = "";
+
+/*Listeners on each shop type of button so I can pass to mostrecent value*/
+var FastFoodButton = document.getElementsbyClassName('shop-fastFood-button');
+var GroceryStoreButton = document.getElementsbyClassName('shop-groceryStore-button');
+var PharmacyButton = document.getElementsbyClassName('shop-pharmacy-button');
+var CoffeeButton = document.getElementsbyClassName('shop-coffee-button');
+var BarsButton = document.getElementsbyClassName('shop-bars-button');
+/*Listeners on these buttons that call the updateMostRecent shop selection function*/
+FastFoodButton[0].addEventListener('click',updateMostRecent('shop-fastFood-button');
+GroceryStoreButton[0].addEventListener('click',updateMostRecent('shop-groceryStore-button');
+PharmacyButton[0].addEventListener('click',updateMostRecent('shop-pharmacy-button');
+CoffeeButton[0].addEventListener('click',updateMostRecent('shop-coffee-button');
+BarsButton[0].addEventListener('click',updateMostRecent('shop-bars-button');
+/*Function that updates the MostRecentShop variable so we can effectively fill out the showinformation correctly*/
+function updateMostRecent(whatWasClicked){
+  MostRecentShop = whatWasClicked;
+}
+                               
 /*Connect The HTML elements of the Close/Cancel/Find buttons to be available to the event listeners*/
 var ModalCloseButton = document.getElementsByClassName('modal-close-button');
 var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
