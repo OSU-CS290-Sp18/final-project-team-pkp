@@ -61,6 +61,7 @@ function hideInformationModal() {
   modalBackdrop.classList.add('hidden');
   createShopModal.classList.add('hidden');*/
 }
+
 /*Unhides the create shop modal and background when called*/
 function showCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'block';
@@ -73,6 +74,25 @@ function showCreateShopModal() {
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
+}
+
+/*Create the capacity to, and listen for a click on the show button for search*/
+var CreateListenerUnhideSearchModal = document.getElementById('shop-search-button');
+CreateListenerUnhideSearchModal.addEventListener('click',showSearchModal);
+
+/*Shows the search content modal*/
+function showSearchModal(){
+  RemoveHiddenAccess[4].style['display'] = 'block';
+  RemoveHiddenAccess[5].style['display'] = 'block'; 
+  /*These might need to be individualized too?*/
+  ModalCloseButton[2].addEventListener('click',hideSearchModal);
+  ModalCancelButton[2].addEventListener('click',hideSearchModal);
+}
+
+/*Hides the search content modal*/
+function hideSearchModal() {
+  RemoveHiddenAccess[4].style['display'] = 'none';
+  RemoveHiddenAccess[5].style['display'] = 'none';
 }
 
 /*Wait for DOM content to load, then hook up UI interactions*/
