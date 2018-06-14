@@ -229,9 +229,15 @@ ul {
 
 .modal-body {
   padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+}
+
+#input-box {
+  align-items: center;
 }
 
 .modal-footer {
