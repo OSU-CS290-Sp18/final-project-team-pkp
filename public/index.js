@@ -7,7 +7,7 @@ function handleModalFindClick() {
 
 
 /*Listens for a click on the choose category button*/
-var CreateListenerUnhide = document.getElementsById('shop-choose-button');
+var CreateListenerUnhide = document.getElementById('shop-choose-button');
 CreateListenerUnhide.addEventListener('click',showCreateShopModal);
 
 /*Enables the capacity to access the "hidden" element of the modals and edit it*/
