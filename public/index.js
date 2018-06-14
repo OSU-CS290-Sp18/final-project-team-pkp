@@ -67,4 +67,4 @@ window.addEventListener('DOMContentLoaded', function () {
   if (searchInput) {
     searchInput.addEventListener('input', doSearchUpdate);
   }*/
-};
+});
