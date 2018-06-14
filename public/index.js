@@ -5,13 +5,25 @@ function handleModalFindClick() {
 
 }
 
+
+/*Listens for a click on the choose category button*/
+var CreateListenerUnhide = document.getElementsById('shop-choose-button');
+CreateListenerUnhide.addEventListener('click',showCreateShopModal);
+
+/*Enables the capacity to access the "hidden" element of the modals and edit it*/
+var RemoveHiddenAccess = document.getElementsByClassName('hidden');
+
 /*Shows the modal when the choose button is clicked*/
 function showCreateShopModal() {
-  var modalBackdrop = document.getElementById('modal-backdrop');
+  /*New style of getting to change the 'hidden' attribute*/
+  RemoveHiddenAccess[0].style['display'] = 'block';
+  RemoveHiddenAccess[1].style['display'] = 'block';
+  /*Temporarily Icing your code to see if my way works*/
+  /*var modalBackdrop = document.getElementById('modal-backdrop');
   var createShopModal = document.getElementById('create-shop-modal');
 
   modalBackdrop.classList.remove('hidden');
-  createShopModal.classList.remove('hidden');
+  createShopModal.classList.remove('hidden');*/
 }
 
 /*Hides the modal when close or cancel buttons are clicked*/
