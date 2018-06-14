@@ -84,12 +84,12 @@ ul {
   color: #ffffff;
 }
 
-.shop-body .shop-banking-button:hover {
+.shop-body .shop-groceryStore-button:hover {
   background-color: #ff8c00;
   color: #ffffff;
 }
 
-.shop-body .shop-banking-button:focus {
+.shop-body .shop-groceryStore-button:focus {
   background-color: #ff8c00;
   color: #ffffff;
 }
@@ -132,14 +132,24 @@ ul {
   cursor: pointer;
 }
 
-.shop-footer .shop-choose-button {
+#shop-choose-button {
   background-color: #ffe4b5;
   color: #000000;
 }
-
+/*
 .shop-footer .shop-choose-button:hover {
   background-color: #b36200;
   color: #ffffff;
+}
+*/
+#shop-choose-button:hover,
+#shop-choose-button:focus {
+  background-color: #b36200;
+  color: #ffffff;
+}
+
+#shop-choose-button:focus {
+  outline: none;
 }
 
 #modal-backdrop {
@@ -199,6 +209,8 @@ ul {
 
 .modal-body {
   padding: 20px;
+  align-items: center;
+  display: flex;
 }
 
 .modal-footer {
