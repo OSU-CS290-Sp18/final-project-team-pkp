@@ -1,24 +1,24 @@
 [
   {
-    "type": "Bar",
+    "type": "Bars",
     "name": "Impulse",
     "address": "1425 NW Monroe Ave, Corvallis, OR 97330",
     "priceRating": "$"
   },
   {
-    "type": "Bar",
+    "type": "Bars",
     "name": "ClodFelters",
     "address": "1501 NW Monroe Ave, Corvallis, OR 97330",
     "priceRating": "$$"
   },
   {
-    "type": "Bar",
+    "type": "Bars",
     "name": "McMenamin’s",
     "address": "2001 NW Monroe Ave, Corvallis, OR 97330",
     "priceRating": "$$$"
   },
   {
-    "type": "Bar",
+    "type": "Bars",
     "name": "Downward Dog",
     "address": "2305 NW Monroe Ave, Corvallis, OR 97330",
     "priceRating": "$$"
