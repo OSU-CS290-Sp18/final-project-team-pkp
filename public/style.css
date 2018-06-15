@@ -92,26 +92,6 @@ ul {
   cursor: pointer;
 }
 
-#shop-choose-button {
-  background-color: #ffe4b5;
-  color: #000000;
-}
-/*
-.shop-footer .shop-choose-button:hover {
-  background-color: #b36200;
-  color: #ffffff;
-}
-*/
-#shop-choose-button:hover,
-#shop-choose-button:focus {
-  background-color: #b36200;
-  color: #ffffff;
-}
-
-#shop-choose-button:focus {
-  outline: none;
-}
-
 #modal-backdrop {
   position: fixed;
   top: 0;
@@ -389,3 +369,28 @@ a {
   justify-content: center;
   border: 5px solid #a9a9a9;
 }
+
+/* Choose Category graveyard
+#shop-choose-button {
+  background-color: #ffe4b5;
+  color: #000000;
+}
+/*
+.shop-footer .shop-choose-button:hover {
+  background-color: #b36200;
+  color: #ffffff;
+}
+*/
+/*
+#shop-choose-button:hover,
+#shop-choose-button:focus {
+  background-color: #b36200;
+  color: #ffffff;
+}
+
+#shop-choose-button:focus {
+  outline: none;
+}
+*/
+
+
