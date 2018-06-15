@@ -7,7 +7,7 @@ var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
 
 /*Information modal button/listener, to be applied to all 5 buttons*/
 var CreateListenerUnhideInformationModal = document.getElementsByClassName('shop-button');
-CreateListenerUnhideInformationModal.addEventListener('click',showInformationModal);
+CreateListenerUnhideInformationModal[0].addEventListener('click',showInformationModal);
 
 /*Connect the HTML element of the "Add shop" button so it can be listened for*/
 var AddShopButton = document.getElementsByClassName('shop-addshop-button');
@@ -15,7 +15,7 @@ AddShopButton[0].addEventListener('click',showCreateShopModal);
 
 /*Create the capacity to, and listen for a click on the show button for search*/
 var UnhideSearchModal = document.getElementById('shop-search-button');
-UnhideSearchModal.addEventListener('click',showSearchModal);
+UnhideSearchModal[0].addEventListener('click',showSearchModal);
 
 /*Shows the information modal when the choose button is clicked*/
 function showInformationModal() {
