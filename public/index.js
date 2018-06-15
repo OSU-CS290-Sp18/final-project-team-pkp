@@ -45,6 +45,7 @@ function showInformationModal() {
   /*New style of getting to change the 'hidden' attribute*/
   RemoveHiddenAccess[0].style['display'] = 'block';
   RemoveHiddenAccess[1].style['display'] = 'block';
+ 
   /*Call hide when close or cancel are clicked*/
   ModalCloseButton[0].addEventListener('click',hideInformationModal);
   ModalCancelButton[0].addEventListener('click',hideInformationModal);
@@ -110,6 +111,18 @@ function uploadToServer(a,b,c,d){
   console.log(c);
   console.log(d);
 }
+
+function getPersonIdFromURL() {
+ var path = window.location.pathname;
+ var pathParts = path.split('/');
+ if (pathParts[1] === "people"){
+  return pathParts[2];
+ }else {
+  return null;
+ }
+}
+
+
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
 
