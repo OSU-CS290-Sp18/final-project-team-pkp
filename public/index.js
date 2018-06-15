@@ -16,6 +16,7 @@ BarsButton[0].addEventListener('click',updateMostRecent('shop-bars-button'));
 CoffeeButton[0].addEventListener('click',updateMostRecent('shop-coffee-button'));
 /*Function that updates the MostRecentShop variable so we can effectively fill out the showinformation correctly*/
 function updateMostRecent(whatWasClicked){
+  console.log(whatWasClicked);
   MostRecentShop = whatWasClicked;
 }
                                
