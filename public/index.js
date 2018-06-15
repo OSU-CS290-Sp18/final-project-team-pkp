@@ -35,6 +35,7 @@ var ClearSearchButton = document.getElementsByClassName('shop-clearSearch-button
 ClearSearchButton[0].addEventListener('click',clearTheSearchBar);
 /*now heres the function that connects the clear button and the search bar*/
 function clearTheSearchBar(){
+ console.log("Got into the function at least");
  ClearContentInside = "";
 }
 
