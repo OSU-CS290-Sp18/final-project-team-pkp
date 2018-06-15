@@ -66,6 +66,10 @@ function showCreateShopModal() {
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
+  WhatsInType.value = "";
+  WhatsInName.value = "";
+  WhatsInAddress.value = "";
+  WhatsInPrice.value = "";
 }
 
 /*Shows the search content modal*/
@@ -93,6 +97,7 @@ function checkNewShop(){
    hideCreateShopModal();
  }
 }
+/*Outline/placeholder for passing a correctly given input in create shop*/
 function uploadToServer(a,b,c,d){
   console.log(a);
   console.log(b);
