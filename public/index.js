@@ -16,6 +16,9 @@ CreateListenerUnhideInformationModal[4].addEventListener('click',showInformation
 var AddShopButton = document.getElementsByClassName('shop-addshop-button');
 AddShopButton[0].addEventListener('click',showCreateShopModal);
 
+/*Create the capacity to, and listen for a click on the show button for search*/
+var UnhideSearchModal = document.getElementsByClassName('shop-search-button');
+UnhideSearchModal[0].addEventListener('click',showSearchModal(ContentInsideSearch));
 
 /*Create all the variables to store info for within the create shop modal*/
 var CreateNewShop = document.getElementsByClassName('modal-create-button');
@@ -35,10 +38,6 @@ function clearTheSearchBar(){
  console.log("Got into the function at least");
  ContentInsideSearch.value = "";
 }
-/*Create the capacity to, and listen for a click on the show button for search*/
-var UnhideSearchModal = document.getElementsByClassName('shop-search-button');
-UnhideSearchModal[0].addEventListener('click',showSearchModal(ContentInsideSearch));
-
 
 /*Shows the information modal when the choose button is clicked*/
 function showInformationModal() {
@@ -78,7 +77,7 @@ function hideCreateShopModal() {
 /*In ShowSearch modal There needs to be the call to the server that asks for data given whats in ContentInsideSearch*/
 function showSearchModal(ContentInsideSearch){
  /*Fill the modal with content based on content inside ContentInsideSearch*/
- console.log(ContentInsideSearch.value);
+  console.log(ContentInsideSearch.value);
  
   RemoveHiddenAccess[4].style['display'] = 'block';
   RemoveHiddenAccess[5].style['display'] = 'block'; 
