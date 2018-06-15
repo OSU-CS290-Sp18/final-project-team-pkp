@@ -64,52 +64,12 @@ ul {
   cursor: pointer;
 }
 
-.shop-body .shop-pharmacy-button:hover {
+.shop-body .shop-button:hover {
   background-color: #ff8c00;
   color: #ffffff;
 }
 
-.shop-body .shop-pharmacy-button:focus {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-fastFood-button:hover {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-fastFood-button:focus {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-groceryStore-button:hover {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-groceryStore-button:focus {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-coffee-button:hover {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-coffee-button:focus {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-bars-button:hover {
-  background-color: #ff8c00;
-  color: #ffffff;
-}
-
-.shop-body .shop-bars-button:focus {
+.shop-body .shop-button:focus {
   background-color: #ff8c00;
   color: #ffffff;
 }
