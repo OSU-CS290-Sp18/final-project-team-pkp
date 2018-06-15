@@ -76,7 +76,7 @@ function hideCreateShopModal() {
 
 /*Shows the search content modal*/
 /*In ShowSearch modal There needs to be the call to the server that asks for data given whats in ContentInsideSearch*/
-function showSearchModal(ContentInsideSearch){
+function showSearchModal(){
  /*Fill the modal with content based on content inside ContentInsideSearch*/
   console.log(ContentInsideSearch.value);
  
