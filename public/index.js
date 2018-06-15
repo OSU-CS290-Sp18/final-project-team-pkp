@@ -66,6 +66,7 @@ function showCreateShopModal() {
 function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
+  /*Clear out the fields in the create new shop bar if they back out*/
   WhatsInType.value = "";
   WhatsInName.value = "";
   WhatsInAddress.value = "";
