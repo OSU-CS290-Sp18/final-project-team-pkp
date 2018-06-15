@@ -198,7 +198,19 @@ ul {
   
 }
 
-#input-box {
+#input-box-type {
+  align-items: center;
+  font-size: 15px;
+}
+#input-box-name {
+  align-items: center;
+  font-size: 15px;
+}
+#input-box-address {
+  align-items: center;
+  font-size: 15px;
+}
+#input-box-price {
   align-items: center;
   font-size: 15px;
 }
