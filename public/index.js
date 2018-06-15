@@ -17,7 +17,7 @@ var AddShopButton = document.getElementsByClassName('shop-addshop-button');
 AddShopButton[0].addEventListener('click',showCreateShopModal);
 
 /*Create the capacity to, and listen for a click on the show button for search*/
-var UnhideSearchModal = document.getElementById('shop-search-button');
+var UnhideSearchModal = document.getElementsByClassName('shop-search-button');
 UnhideSearchModal[0].addEventListener('click',showSearchModal);
 
 /*Shows the information modal when the choose button is clicked*/
@@ -50,14 +50,13 @@ function hideCreateShopModal() {
 }
 
 /*Shows the search content modal*/
-/*
 function showSearchModal(){
   RemoveHiddenAccess[4].style['display'] = 'block';
   RemoveHiddenAccess[5].style['display'] = 'block'; 
   /*These might need to be individualized too?*/
-/*  ModalCloseButton[2].addEventListener('click',hideSearchModal);
+  ModalCloseButton[2].addEventListener('click',hideSearchModal);
   ModalCancelButton[2].addEventListener('click',hideSearchModal);
-}*/
+}
 /*Hides the search content modal*/
 /*function hideSearchModal() {
   RemoveHiddenAccess[4].style['display'] = 'none';
