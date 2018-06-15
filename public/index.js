@@ -71,7 +71,7 @@ function hideSearchModal() {
 
 /*When they try to submit a new shop to the database, make sure the fields actually have values in them*/
 function checkNewShop(){
- if(WhatsInType.value === ' '|| WhatsInName.value === ' '|| WhatsInAddress.value === ' '|| WhatsInPrice.value === ' '||){
+ if(WhatsInType.value === ' '|| WhatsInName.value === ' '|| WhatsInAddress.value === ' '|| WhatsInPrice.value === ' '){
      window.alert("Fill it out entirely please");
  }
  else{
