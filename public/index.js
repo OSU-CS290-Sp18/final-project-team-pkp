@@ -59,7 +59,7 @@ function hideSearchModal() {
   RemoveHiddenAccess[4].style['display'] = 'none';
   RemoveHiddenAccess[5].style['display'] = 'none';
 }
-*****************************************************************************/
+/*****************************************************************************/
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
 
