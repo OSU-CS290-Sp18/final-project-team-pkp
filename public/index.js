@@ -8,7 +8,10 @@ var ModalCancelButton = document.getElementsByClassName('modal-cancel-button');
 /*Information modal button/listener, to be applied to all 5 buttons*/
 var CreateListenerUnhideInformationModal = document.getElementsByClassName('shop-button');
 CreateListenerUnhideInformationModal[0].addEventListener('click',showInformationModal);
-
+CreateListenerUnhideInformationModal[1].addEventListener('click',showInformationModal);
+CreateListenerUnhideInformationModal[2].addEventListener('click',showInformationModal);
+CreateListenerUnhideInformationModal[3].addEventListener('click',showInformationModal);
+CreateListenerUnhideInformationModal[4].addEventListener('click',showInformationModal);
 /*Connect the HTML element of the "Add shop" button so it can be listened for*/
 var AddShopButton = document.getElementsByClassName('shop-addshop-button');
 AddShopButton[0].addEventListener('click',showCreateShopModal);
