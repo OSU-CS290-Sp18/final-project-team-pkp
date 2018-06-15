@@ -47,19 +47,20 @@ function hideCreateShopModal() {
 }
 
 /*Shows the search content modal*/
+/*
 function showSearchModal(){
   RemoveHiddenAccess[4].style['display'] = 'block';
   RemoveHiddenAccess[5].style['display'] = 'block'; 
   /*These might need to be individualized too?*/
-  ModalCloseButton[2].addEventListener('click',hideSearchModal);
+/*  ModalCloseButton[2].addEventListener('click',hideSearchModal);
   ModalCancelButton[2].addEventListener('click',hideSearchModal);
-}
+}*/
 /*Hides the search content modal*/
-function hideSearchModal() {
+/*function hideSearchModal() {
   RemoveHiddenAccess[4].style['display'] = 'none';
   RemoveHiddenAccess[5].style['display'] = 'none';
 }
-
+*/
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
 
