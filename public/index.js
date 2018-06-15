@@ -36,7 +36,7 @@ ClearSearchButton[0].addEventListener('click',clearTheSearchBar);
 /*now heres the function that connects the clear button and the search bar*/
 function clearTheSearchBar(){
  console.log("Got into the function at least");
- ClearContentInside[0] = "";
+ ClearContentInside.value = "";
 }
 
 /*Shows the information modal when the choose button is clicked*/
