@@ -1,8 +1,6 @@
-# Shop Destination Finder!
+# Corvallis Shop Destination Finder!
 
 **Final project in CS290, taught by Dr. Rob Hess at OSU in Spring 2018.**
-
-(add a description)
 
 ---
 ### Members
