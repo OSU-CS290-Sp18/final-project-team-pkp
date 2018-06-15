@@ -32,7 +32,7 @@ ClearSearchButton[0].addEventListener('click',clearTheSearchBar);
 
 /*Create the capacity to, and listen for a click on the show button for search*/
 var UnhideSearchModal = document.getElementsByClassName('shop-search-button');
-UnhideSearchModal[0].addEventListener('click',showSearchModal(ContentInsideSearch));
+UnhideSearchModal[0].addEventListener('click',showSearchModal);
 
 /*now heres the function that connects the clear button and the search bar*/
 function clearTheSearchBar(){
