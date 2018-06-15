@@ -73,9 +73,11 @@ function hideSearchModal() {
 function checkNewShop(){
  if(WhatsInType.value === ' '|| WhatsInName.value === ' '|| WhatsInAddress.value === ' '|| WhatsInPrice.value === ' '){
      window.alert("Fill it out entirely please");
+     console.log("Alert should have fired");
  }
  else{
    uploadToServer(WhatsInType.value,WhatsInName.value,WhatsInAddress.value,WhatsInPrice.value);
+   hideCreateShopModal();
  }
 }
 function uploadToServer(a,b,c,d){
