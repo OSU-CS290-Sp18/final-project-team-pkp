@@ -20,6 +20,12 @@ AddShopButton[0].addEventListener('click',showCreateShopModal);
 var UnhideSearchModal = document.getElementsByClassName('shop-search-button');
 UnhideSearchModal[0].addEventListener('click',showSearchModal);
 
+var CreateNewShop = document.getElementsByClassName('modal-create-button');
+CreateNewShop[0].addEventListener('click',checkNewShop);
+var WhatsInType = document.getElementById('input-box-type');
+var WhatsInName = document.getElementById('input-box-name');
+var WhatsInAddress = document.getElementById('input-box-address');
+var WhatsInPrice = document.getElementById('input-box-price');
 /*Shows the information modal when the choose button is clicked*/
 function showInformationModal() {
   /*New style of getting to change the 'hidden' attribute*/
@@ -61,6 +67,11 @@ function showSearchModal(){
 function hideSearchModal() {
   RemoveHiddenAccess[4].style['display'] = 'none';
   RemoveHiddenAccess[5].style['display'] = 'none';
+}
+
+/*When they try to submit a new shop to the database, make sure the fields actually have values in them*/
+function checkNewShop(){
+ if(
 }
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
