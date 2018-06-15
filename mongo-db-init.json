@@ -1,0 +1,128 @@
+[
+  {
+    "type": "Bar",
+    "name": "Impulse",
+    "address": "1425 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$"
+  },
+  {
+    "type": "Bar",
+    "name": "ClodFelters",
+    "address": "1501 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Bar",
+    "name": "McMenamin’s",
+    "address": "2001 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$$"
+  },
+  {
+    "type": "Bar",
+    "name": "Downward Dog",
+    "address": "2305 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Fast Food",
+    "name": "Roxy Dogs",
+    "address": "1425 Northwest Monroe Avenue g, Corvallis, OR 97330",
+    "priceRating": "$"
+  },
+  {
+    "type": "Fast Food",
+    "name": "Pita Pit",
+    "address": "1425 NW Monroe Ave B, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Fast Food",
+    "name": "Jimmy John’s",
+    "address": "1557 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Fast Food",
+    "name": "Beaver Hut",
+    "address": "1603 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$"
+  },
+  {
+    "type": "Fast Food",
+    "name": "Chipotle",
+    "address": "2501 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$$"
+  },
+  {
+    "type": "Pharmacy",
+    "name": "SafeWay Pharmacy",
+    "address": "450 SW 3rd St, Corvallis, OR 97333",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Pharmacy",
+    "name": "Fred Meyer Pharmacy",
+    "address": "777 NW Kings Blvd, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Pharmacy",
+    "name": "Rice’s Pharmacy",
+    "address": "910 NW Kings Blvd, Corvallis, OR 97330",
+    "priceRating": "$$$"
+  },
+  {
+    "type": "Pharmacy",
+    "name": "Student Health Services",
+    "address": "108 SW Memorial Place Corvallis, OR 97331",
+    "priceRating": "$"
+  },
+  {
+    "type": "Coffee",
+    "name": "Interzone",
+    "address": "1563 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$"
+  },
+  {
+    "type": "Coffee",
+    "name": "Dutch Bros",
+    "address": "2001 NW Monroe Ave, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Coffee",
+    "name": "Allan’s Coffee",
+    "address": "2541 NW Monroe Ave, Corvallis, OR 97331",
+    "priceRating": "$"
+  },
+  {
+    "type": "Coffee",
+    "name": "Bing’s Cafe",
+    "address": "300 SW 26th St, Corvallis, OR 97331",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Grocery Store",
+    "name": "Fred Meyer",
+    "address": "777 NW Kings Blvd, Corvallis, OR 97330",
+    "priceRating": "$$"
+  },
+  {
+    "type": "Grocery Store",
+    "name": "Trader Joe's",
+    "address": "1550 NW 9th St ste 100, Corvallis, OR 97330",
+    "priceRating": "$$$"
+  },
+  {
+    "type": "Grocery Store",
+    "name": "Winco",
+    "address": "2335 NW Kings Blvd, Corvallis, OR 97330",
+    "priceRating": "$"
+  },
+  {
+    "type": "Grocery Store",
+    "name": "SafeWay",
+    "address": "450 SW 3rd St, Corvallis, OR 97333",
+    "priceRating": "$"
+  }
+]
