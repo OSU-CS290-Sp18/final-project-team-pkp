@@ -71,7 +71,18 @@ function hideSearchModal() {
 
 /*When they try to submit a new shop to the database, make sure the fields actually have values in them*/
 function checkNewShop(){
- if(
+ if(WhatsInType.value === ' '|| WhatsInName.value === ' '|| WhatsInAddress.value === ' '|| WhatsInPrice.value === ' '||){
+     window.alert("Fill it out entirely please");
+ }
+ else{
+   uploadToServer(WhatsInType.value,WhatsInName.value,WhatsInAddress.value,WhatsInPrice.value);
+ }
+}
+function uploadToServer(a,b,c,d){
+  console.log(a);
+  console.log(b);
+  console.log(c);
+  console.log(d);
 }
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
