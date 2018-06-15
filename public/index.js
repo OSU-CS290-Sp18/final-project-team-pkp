@@ -16,7 +16,7 @@ AddShopButton[0].addEventListener('click',showCreateShopModal);
 /*Create the capacity to, and listen for a click on the show button for search*/
 var UnhideSearchModal = document.getElementById('shop-search-button');
 UnhideSearchModal.addEventListener('click',showSearchModal);
-/****************************************************************************/
+
 /*Shows the information modal when the choose button is clicked*/
 function showInformationModal() {
   /*New style of getting to change the 'hidden' attribute*/
@@ -31,7 +31,7 @@ function hideInformationModal() {
   RemoveHiddenAccess[0].style['display'] = 'none';
   RemoveHiddenAccess[1].style['display'] = 'none';
 }
-/*************************************************************************/
+
 /*Unhides the create shop modal and background when called*/
 function showCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'block';
@@ -45,7 +45,7 @@ function hideCreateShopModal() {
   RemoveHiddenAccess[2].style['display'] = 'none';
   RemoveHiddenAccess[3].style['display'] = 'none';
 }
-/***************************************************************************/
+
 /*Shows the search content modal*/
 function showSearchModal(){
   RemoveHiddenAccess[4].style['display'] = 'block';
@@ -59,7 +59,7 @@ function hideSearchModal() {
   RemoveHiddenAccess[4].style['display'] = 'none';
   RemoveHiddenAccess[5].style['display'] = 'none';
 }
-/*****************************************************************************/
+
 /*Wait for DOM content to load, then hook up UI interactions*/
 window.addEventListener('DOMContentLoaded', function () {
 
